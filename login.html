@@ -1,0 +1,76 @@
+<link rel="stylesheet" href="login.css"/>
+<link rel="shortcut icon" href="dablogo.png" />
+<script src="JavaScript\indexScript.js"></script>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+
+<html>
+<title>Dab</title>
+  <body>
+    <div class="left">
+      <ul style="list-style-type:none; overflow:hidden; padding: 0; margin: 0px;">
+        <li>
+          <a class="left" href="category/bancuri.html">Bancuri</a>
+        </li>
+        <li>
+          <a class="left" href="category/imagini.html">Imagini</a>
+        </li>
+        <li>
+          <a class="left" href="category/gif.html">Gif</a>
+        </li>
+        <li>
+          <a class="left" href="category/video.html">Video</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="fromcenter">
+      <div class="alert">
+  <span class="closebtn">&times;</span>  
+  <strong>Wrong username or password!</strong>
+</div>
+
+<div class="alert success">
+  <span class="closebtn">&times;</span>  
+  <strong>Success!</strong>
+</div>
+      <div class="form" style="margin-top: 100px;">
+    <form>
+      <p class="top-message">Intra in profil</p>
+      <input type="text" placeholder="nume utilizator"/>
+      <input type="password" placeholder="parola"/>
+      <button onclick="login_approve(); return false;">LOGIN</button>
+    </form>
+      <p>Nu ai account la moment? <a href="register.html" style="color: #6B12E5;
+  text-decoration: none;">Inregistreaza-te</a></p>
+  </div>
+    </div>
+    <ul class="header">
+  <li class="left"><a class="head" href="index.html#Up">Dab</a></li>
+  <li class="left"><div class="container" onclick="burgerMenu(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div></li>
+<img class="logo" src="dablogo.png" alt="Dab" height="50px" hspace="0%" style="margin-top:4px;"/>
+  <li class="right"><a class="head" href="login.html">Profilul meu</a></li>
+</ul>
+<div class="BurgerMenuClick" id="BMC">
+      <ul style="list-style-type:none; overflow:hidden; padding: 0; margin: 0px;">
+        <li>
+          <a class="left" href="category/bancuri.html">Bancuri</a>
+        </li>
+        <li>
+          <a class="left" href="category/imagini.html">Imagini</a>
+        </li>
+        <li>
+          <a class="left" href="category/gif.html">Gif</a>
+        </li>
+        <li>
+          <a class="left" href="category/video.html">Video</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+  
+</html>
+<script src="JavaScript\loginScript.js"></script>
